@@ -1,0 +1,9 @@
+github:
+  api:
+    base-url: http://localhost:8089
+spring:
+  application:
+    name: atipera
+  threads:
+    virtual:
+      enabled: 'true'

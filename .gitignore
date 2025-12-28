@@ -1,0 +1,102 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+### Windows ###
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+### Linux ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+### Editor temp files ###
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.orig
+*.rej
+
+### Environment & Secrets ###
+.env
+.env.local
+.env.*.local
+
+### Logs ###
+*.log
+logs/
+spring.log
+
+### Test Coverage ###
+*.exec
+.jacoco/
+
+### Gradle ###
+**/build/
+!**/src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+### Other ###
+*.class
+hs_err_pid*
+replay_pid*
+
+
